@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Container, VStack, HStack, Text, Input, Button, Textarea, Select, Box, IconButton, useToast, Switch, FormControl, FormLabel, Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton, useDisclosure } from "@chakra-ui/react";
+import { testApiKey, sendInitialPrompt, fetchTools, updateToolStatus, fetchConfig, updateConfig } from "../api";
 import { FaPlus, FaEdit, FaTrash, FaTools, FaCog, FaCheck } from "react-icons/fa";
 
 const Index = () => {
